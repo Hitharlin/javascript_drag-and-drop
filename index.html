@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="wrapper">
+            <ul class="list">
+                <li class="list_caption">Block 1</li>
+                <li class="list_caption">Block 2</li>
+                <li class="list_caption">Block 3</li>
+                <li class="list_caption">Block 4</li>
+                <li class="list_cell js-cell">
+                    <div class="list_card js-card" draggable="true">
+                        <div class="list_card-header">
+                            Drag and drop
+                        </div>
+                        <div class="list_card-info">
+                            dragstart, dragend, dragover, dragenter, dragleave,     drop
+
+                        </div>
+                    </div>
+                </li>
+                <li class="list_cell js-cell"></li>
+                <li class="list_cell js-cell"></li>
+                <li class="list_cell js-cell"></li>
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
